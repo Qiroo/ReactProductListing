@@ -8,8 +8,43 @@ function ProductList() {
           <div className="col-md-12">
             <h4 className="mb-4">Our Products</h4>
           </div>
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+          <Product />
         </div>
-        <Product />
       </div>
     </div>
   );
