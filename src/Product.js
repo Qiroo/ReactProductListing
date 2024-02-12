@@ -1,18 +1,20 @@
-function Product() {
+function Product(props) {
+  const { name, type, price, image } = props.data;
+
   return (
     <div className="col-md-3">
       <div className="product-card">
         <div className="product-card-img">
           <label className="stock bg-success">In Stock</label>
-          <img src="./hp-laptop.jpg" alt="Laptop" />
+          <img src={image} alt="Laptop" />
         </div>
         <div className="product-card-body">
-          <p className="product-brand">HP</p>
+          <p className="product-brand">{type}</p>
           <h5 className="product-name">
-            <a href=""> HP Laptop </a>
+            <a href=""> {name} </a>
           </h5>
           <div>
-            <span className="selling-price">$500</span>
+            <span className="selling-price">${price}</span>
             <span className="original-price">$799</span>
           </div>
           <div className="mt-2">

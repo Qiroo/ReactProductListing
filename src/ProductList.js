@@ -1,4 +1,5 @@
 import Product from "./Product";
+import appleProducts from "./appleProducts";
 
 function ProductList() {
   return (
@@ -8,42 +9,9 @@ function ProductList() {
           <div className="col-md-12">
             <h4 className="mb-4">Our Products</h4>
           </div>
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
-          <Product />
+          {appleProducts.map(function (product) {
+            return <Product data={product} />;
+          })}
         </div>
       </div>
     </div>
