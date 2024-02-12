@@ -1,0 +1,130 @@
+const appleProducts = [
+  {
+    name: "iPhone 13 Pro Max",
+    type: "Smartphone",
+    price: 1099,
+    image: "https://example.com/iphone13promax.jpg",
+  },
+  {
+    name: "MacBook Pro 16-inch",
+    type: "Laptop",
+    price: 2399,
+    image: "https://example.com/macbookpro16.jpg",
+  },
+  {
+    name: "iPad Air",
+    type: "Tablet",
+    price: 599,
+    image: "https://example.com/ipadair.jpg",
+  },
+  {
+    name: "Apple Watch Series 7",
+    type: "Smartwatch",
+    price: 399,
+    image: "https://example.com/applewatchseries7.jpg",
+  },
+  {
+    name: "AirPods Pro",
+    type: "Wireless Earbuds",
+    price: 249,
+    image: "https://example.com/airpodspro.jpg",
+  },
+  {
+    name: "Mac mini",
+    type: "Desktop",
+    price: 699,
+    image: "https://example.com/macmini.jpg",
+  },
+  {
+    name: "Apple TV 4K",
+    type: "Media Player",
+    price: 179,
+    image: "https://example.com/appletv4k.jpg",
+  },
+  {
+    name: "HomePod Mini",
+    type: "Smart Speaker",
+    price: 99,
+    image: "https://example.com/homepodmini.jpg",
+  },
+  {
+    name: "iPad Pro",
+    type: "Tablet",
+    price: 799,
+    image: "https://example.com/ipadpro.jpg",
+  },
+  {
+    name: "MacBook Air",
+    type: "Laptop",
+    price: 999,
+    image: "https://example.com/macbookair.jpg",
+  },
+  {
+    name: "iMac 24-inch",
+    type: "Desktop",
+    price: 1299,
+    image: "https://example.com/imac24.jpg",
+  },
+  {
+    name: "Apple Pencil (2nd Generation)",
+    type: "Stylus",
+    price: 129,
+    image: "https://example.com/applepencil2.jpg",
+  },
+  {
+    name: "Magic Keyboard",
+    type: "Keyboard",
+    price: 299,
+    image: "https://example.com/magickeyboard.jpg",
+  },
+  {
+    name: "Beats Studio Buds",
+    type: "Wireless Earbuds",
+    price: 149,
+    image: "https://example.com/beatsstudiobuds.jpg",
+  },
+  {
+    name: "Apple Watch SE",
+    type: "Smartwatch",
+    price: 279,
+    image: "https://example.com/applewatchse.jpg",
+  },
+  {
+    name: "AirTag",
+    type: "Tracker",
+    price: 29,
+    image: "https://example.com/airtag.jpg",
+  },
+  {
+    name: "iPad mini",
+    type: "Tablet",
+    price: 499,
+    image: "https://example.com/ipadmini.jpg",
+  },
+  {
+    name: "Apple One",
+    type: "Subscription",
+    price: 14.95,
+    image: "https://example.com/appleone.jpg",
+  },
+  {
+    name: "AppleCare+",
+    type: "Service",
+    price: 79,
+    image: "https://example.com/applecareplus.jpg",
+  },
+  {
+    name: "iCloud Storage",
+    type: "Service",
+    price: 0.99,
+    image: "https://example.com/icloudstorage.jpg",
+  },
+  {
+    name: "iTunes Gift Card",
+    type: "Gift Card",
+    price: 25,
+    image: "https://example.com/itunesgiftcard.jpg",
+  },
+];
+
+export default appleProducts;
