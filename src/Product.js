@@ -1,5 +1,5 @@
 function Product(props) {
-  const { name, type, price, image } = props.data;
+  const { name, type, price, formerPrice, image } = props.data;
 
   return (
     <div className="col-md-3">
@@ -15,7 +15,7 @@ function Product(props) {
           </h5>
           <div>
             <span className="selling-price">${price}</span>
-            <span className="original-price">$799</span>
+            <span className="original-price">${formerPrice}</span>
           </div>
           <div className="mt-2">
             <a href="" className="btn btn1">
