@@ -63,3 +63,7 @@
   margin-top: 10px;
 }
 /* Product Card End */
+.product-card-img .sold-out {
+  filter: grayscale();
+  opacity: 0.5;
+}
